@@ -1,11 +1,28 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite name="Suite">
-  <test name="Test">
-    <classes>
-      <class name="com.zoho.tests.InvalidLogin"/>
-      <class name="com.zoho.tests.ValidLoginLogout"/>
-      <class name="com.zoho.tests.VerifyVersion"/>
-    </classes>
-  </test> <!-- Test -->
-</suite> <!-- Suite -->
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+<suite name="Suite" parallel="tests">
+
+  <test name="Chrome1">
+   <parameter name="node" value="http://135.254.229.89:4444/wd/hub"/>
+   <parameter name="browser" value="chrome"/>
+   <packages>
+ 	<package name="com.zoho.tests"/>
+   </packages>
+  </test> 
+  
+   <test name="FIREFOX1">
+   <parameter name="node" value="http://135.254.229.89:4444/wd/hub"/>
+   <parameter name="browser" value="firefox"/>
+   <packages>
+ 	<package name="com.zoho.tests"/>
+   </packages>
+  </test> 
+  
+   <test name="IE1">
+   <parameter name="node" value="http://135.254.229.89:4444/wd/hub"/>
+   <parameter name="browser" value="ie"/>
+   <packages>
+ 	<package name="com.zoho.tests"/>
+   </packages>
+  </test> 
+  
+ </suite>
