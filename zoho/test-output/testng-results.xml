@@ -1,0 +1,245 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="4" total="10" passed="6">
+  <reporter-output>
+    <line>
+      <![CDATA[Title is Matching:actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matching:actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matching:actiTIME - Enter Time-Track]]>
+    </line>
+    <line>
+      <![CDATA[Title is Matching:actiTIME - Login]]>
+    </line>
+    <line>
+      <![CDATA[Element is Present]]>
+    </line>
+    <line>
+      <![CDATA[Element is Present]]>
+    </line>
+    <line>
+      <![CDATA[Element is Present]]>
+    </line>
+    <line>
+      <![CDATA[Element is Present]]>
+    </line>
+    <line>
+      <![CDATA[Element is Present]]>
+    </line>
+    <line>
+      <![CDATA[Element is Present]]>
+    </line>
+  </reporter-output>
+  <suite name="AutomationSuite" duration-ms="60976" started-at="2017-07-09T16:00:17Z" finished-at="2017-07-09T16:01:18Z">
+    <groups>
+      <group name="smoke">
+        <method signature="ValidLoginLogout.testValidLoginLogout()[pri:1, instance:com.zoho.tests.ValidLoginLogout@39aeed2f]" name="testValidLoginLogout" class="com.zoho.tests.ValidLoginLogout"/>
+        <method signature="VerifyVersion.testVerifyVersion()[pri:3, instance:com.zoho.tests.VerifyVersion@724af044]" name="testVerifyVersion" class="com.zoho.tests.VerifyVersion"/>
+        <method signature="ValidLoginLogout.testValidLoginLogout()[pri:1, instance:com.zoho.tests.ValidLoginLogout@3bfdc050]" name="testValidLoginLogout" class="com.zoho.tests.ValidLoginLogout"/>
+        <method signature="VerifyVersion.testVerifyVersion()[pri:3, instance:com.zoho.tests.VerifyVersion@1bce4f0a]" name="testVerifyVersion" class="com.zoho.tests.VerifyVersion"/>
+      </group> <!-- smoke -->
+      <group name="login">
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:com.zoho.tests.InvalidLogin@4cc0edeb]" name="testInvalidLogin" class="com.zoho.tests.InvalidLogin"/>
+        <method signature="ValidLoginLogout.testValidLoginLogout()[pri:1, instance:com.zoho.tests.ValidLoginLogout@39aeed2f]" name="testValidLoginLogout" class="com.zoho.tests.ValidLoginLogout"/>
+        <method signature="InvalidLogin.testInvalidLogin()[pri:2, instance:com.zoho.tests.InvalidLogin@42d80b78]" name="testInvalidLogin" class="com.zoho.tests.InvalidLogin"/>
+        <method signature="ValidLoginLogout.testValidLoginLogout()[pri:1, instance:com.zoho.tests.ValidLoginLogout@3bfdc050]" name="testValidLoginLogout" class="com.zoho.tests.ValidLoginLogout"/>
+      </group> <!-- login -->
+    </groups>
+    <test name="Win7Chrome" duration-ms="44287" started-at="2017-07-09T16:00:17Z" finished-at="2017-07-09T16:01:01Z">
+      <class name="com.zoho.tests.InvalidLogin">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.zoho.tests.InvalidLogin@4cc0edeb]" name="openApp" is-config="true" duration-ms="6866" started-at="2017-07-09T21:30:33Z" finished-at="2017-07-09T21:30:40Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.3:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.zoho.tests.InvalidLogin@4cc0edeb]" name="testInvalidLogin" duration-ms="4424" started-at="2017-07-09T21:30:40Z" finished-at="2017-07-09T21:30:45Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is Present]]>
+            </line>
+            <line>
+              <![CDATA[Element is Present]]>
+            </line>
+            <line>
+              <![CDATA[Element is Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.zoho.tests.InvalidLogin@4cc0edeb]" name="closeApp" is-config="true" duration-ms="989" started-at="2017-07-09T21:30:45Z" finished-at="2017-07-09T21:30:46Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.zoho.tests.InvalidLogin -->
+      <class name="com.zoho.tests.ValidLoginLogout">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.zoho.tests.ValidLoginLogout@39aeed2f]" name="openApp" is-config="true" duration-ms="9429" started-at="2017-07-09T21:30:17Z" finished-at="2017-07-09T21:30:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.3:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.zoho.tests.ValidLoginLogout@39aeed2f]" name="testValidLoginLogout" duration-ms="5653" started-at="2017-07-09T21:30:26Z" finished-at="2017-07-09T21:30:32Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is Matching:actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is Matching:actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.zoho.tests.ValidLoginLogout@39aeed2f]" name="closeApp" is-config="true" duration-ms="1143" started-at="2017-07-09T21:30:32Z" finished-at="2017-07-09T21:30:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.zoho.tests.ValidLoginLogout -->
+      <class name="com.zoho.tests.VerifyVersion">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.zoho.tests.VerifyVersion@724af044]" name="openApp" is-config="true" duration-ms="7421" started-at="2017-07-09T21:30:46Z" finished-at="2017-07-09T21:30:53Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.3:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:com.zoho.tests.VerifyVersion@724af044]" name="testVerifyVersion" duration-ms="7605" started-at="2017-07-09T21:30:53Z" finished-at="2017-07-09T21:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.zoho.tests.VerifyVersion@724af044]" name="closeApp" is-config="true" duration-ms="735" started-at="2017-07-09T21:31:01Z" finished-at="2017-07-09T21:31:01Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.zoho.tests.VerifyVersion -->
+    </test> <!-- Win7Chrome -->
+    <test name="LinuxFirefox" duration-ms="60976" started-at="2017-07-09T16:00:17Z" finished-at="2017-07-09T16:01:18Z">
+      <class name="com.zoho.tests.InvalidLogin">
+        <test-method status="PASS" signature="setDriverPath()[pri:0, instance:com.zoho.tests.InvalidLogin@42d80b78]" name="setDriverPath" is-config="true" duration-ms="0" started-at="2017-07-09T21:30:17Z" finished-at="2017-07-09T21:30:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setDriverPath -->
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.zoho.tests.InvalidLogin@42d80b78]" name="openApp" is-config="true" duration-ms="9809" started-at="2017-07-09T21:30:39Z" finished-at="2017-07-09T21:30:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.3:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testInvalidLogin()[pri:2, instance:com.zoho.tests.InvalidLogin@42d80b78]" name="testInvalidLogin" duration-ms="9675" started-at="2017-07-09T21:30:48Z" finished-at="2017-07-09T21:30:58Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Element is Present]]>
+            </line>
+            <line>
+              <![CDATA[Element is Present]]>
+            </line>
+            <line>
+              <![CDATA[Element is Present]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testInvalidLogin -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.zoho.tests.InvalidLogin@42d80b78]" name="closeApp" is-config="true" duration-ms="531" started-at="2017-07-09T21:30:58Z" finished-at="2017-07-09T21:30:59Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.zoho.tests.InvalidLogin -->
+      <class name="com.zoho.tests.ValidLoginLogout">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.zoho.tests.ValidLoginLogout@3bfdc050]" name="openApp" is-config="true" duration-ms="13129" started-at="2017-07-09T21:30:17Z" finished-at="2017-07-09T21:30:30Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.3:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testValidLoginLogout()[pri:1, instance:com.zoho.tests.ValidLoginLogout@3bfdc050]" name="testValidLoginLogout" duration-ms="7371" started-at="2017-07-09T21:30:30Z" finished-at="2017-07-09T21:30:38Z">
+          <reporter-output>
+            <line>
+              <![CDATA[Title is Matching:actiTIME - Enter Time-Track]]>
+            </line>
+            <line>
+              <![CDATA[Title is Matching:actiTIME - Login]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- testValidLoginLogout -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.zoho.tests.ValidLoginLogout@3bfdc050]" name="closeApp" is-config="true" duration-ms="1005" started-at="2017-07-09T21:30:38Z" finished-at="2017-07-09T21:30:39Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.zoho.tests.ValidLoginLogout -->
+      <class name="com.zoho.tests.VerifyVersion">
+        <test-method status="PASS" signature="openApp(java.lang.String, java.lang.String)[pri:0, instance:com.zoho.tests.VerifyVersion@1bce4f0a]" name="openApp" is-config="true" duration-ms="7612" started-at="2017-07-09T21:30:59Z" finished-at="2017-07-09T21:31:06Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[http://192.168.1.3:4444/wd/hub]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- openApp -->
+        <test-method status="PASS" signature="testVerifyVersion()[pri:3, instance:com.zoho.tests.VerifyVersion@1bce4f0a]" name="testVerifyVersion" duration-ms="11087" started-at="2017-07-09T21:31:06Z" finished-at="2017-07-09T21:31:17Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testVerifyVersion -->
+        <test-method status="PASS" signature="closeApp()[pri:0, instance:com.zoho.tests.VerifyVersion@1bce4f0a]" name="closeApp" is-config="true" duration-ms="739" started-at="2017-07-09T21:31:17Z" finished-at="2017-07-09T21:31:18Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closeApp -->
+      </class> <!-- com.zoho.tests.VerifyVersion -->
+    </test> <!-- LinuxFirefox -->
+  </suite> <!-- AutomationSuite -->
+</testng-results>
